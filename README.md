@@ -1,11 +1,22 @@
 # WA Web Project
 
-Sebuah aplikasi web yang terhubung dengan WhatsApp API. Dibangun menggunakan Node.js dan Express, dengan tampilan frontend menggunakan EJS dan CSS custom.
+Aplikasi WhatsApp berbasis web menggunakan Node.js dan Express.
 
 ## 🚀 Fitur
-- Login dan koneksi ke WhatsApp
-- Kirim pesan otomatis
-- API endpoint untuk WhatsApp service
-- Dashboard sederhana
+- Kirim pesan via WhatsApp API
+- Template frontend dengan EJS
+- Struktur folder rapi dan modular
 
-## 📁 Struktur Proyek
+## 🔧 Jalankan secara lokal:
+```bash
+npm install
+node index.js
+```
+
+Buat file .env dengan isi seperti:
+```
+PORT=3000
+WHATSAPP_SESSION_ID=your_session_id
+```
+
+## 📡 Siap dideploy ke Render, Railway, atau VPS.
